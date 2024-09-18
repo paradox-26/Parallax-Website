@@ -1,0 +1,83 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 27px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+     color: #666;
+}
+.pimg1 {
+    background-image: url(image/image1.png);
+    min-height: 100%;
+}
+.pimg2 {
+    background-image: url(image/image2.png);
+    min-height: 400px;
+}
+.pimg3 {
+    background-image: url(image/image3.png);
+    min-height: 400px;
+}
+.pimg1 , .pimg2,.pimg3 {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  }
+.textbg {
+    background-color: #28272780;
+    color: #fff;
+    padding: 1em;
+}
+.textbg1 {
+    background-color: #2827279a;
+    color: #fff;
+    padding: 1em;
+}
+.one {
+    padding: 50px 80px;
+    text-align: center;
+    font-size: 20px; 
+}
+.section-light {
+    background-color: #ffffff;
+    color: #2d2b2b;
+}
+.section-dark {
+    background-color:#2d2b2b;
+    color:#ffffff;
+}
+footer {
+    background-color: #272323;
+    text-align: center;
+}
+a {
+    color: #fff;
+}
+.fa {
+    padding: 5px;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius: 40%;
+}
